@@ -1,5 +1,5 @@
 .container{
-    /*ackground-color: salmon;*/
+    /*background-color: salmon;*/
     width: 100%;
     height: auto;
     background-color: #fff;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 .body{
-    background-color: seagreen;
+    /*background-color: seagreen;*/
     width: 500px;
     height: 1000px;
 }
@@ -16,9 +16,8 @@
     justify-content: center;
     margin-top: 88px;    
 }
-p{
-    display: flex;
-    justify-content: center;
+p.txt{
+    text-align: center;
     font-size: 18px;
     font-family: Robot;
     font-style: normal;
@@ -27,9 +26,71 @@ p{
     margin-top: 125px;
     color: #3B3C54;
 }
+p.email{
+    /*border: 2px solid black;*/
+    margin-top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    color: #B1C5E2;
+}
+p.senha{
+    margin-top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    color: #B1C5E2;
+}
 .form{
+    display: flex;
+    justify-content: center;   
     margin-top: 103px;
-    text-align: center;
+    /*border: 2px solid black;*/
+    padding: 0px;
+}
+#email, #senha, #clocker{
+    background-color: #ffffff;
+    /*border: 1px solid #b1c5e2;*/
+    border-radius: 6px;
+    width: 443px;
+    height: 55px;    
 }
 
-
+#clocker{
+    margin-right: 8px;
+    width: 243px;
+    height: 55px;   
+}
+p.clocker{
+    /*border: 2px solid black;*/
+    width: 433;
+    height: 28;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.2em;
+    font-family: Robot;
+    font-style: normal;
+    font-weight: normal;
+    color: #2B3C54;
+    margin-top: 44px;
+}
+#botao{
+    width: 443px;
+    height: 55px;
+    background-color: #4e84f5;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
