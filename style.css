@@ -1,0 +1,35 @@
+.container{
+    /*ackground-color: salmon;*/
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.body{
+    background-color: seagreen;
+    width: 500px;
+    height: 1000px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;    
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Robot;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    margin-top: 125px;
+    color: #3B3C54;
+}
+.form{
+    margin-top: 103px;
+    text-align: center;
+}
+
+
